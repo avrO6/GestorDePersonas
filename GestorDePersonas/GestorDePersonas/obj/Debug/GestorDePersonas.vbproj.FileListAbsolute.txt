@@ -1,0 +1,13 @@
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\bin\Debug\GestorDePersonas.exe.config
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\bin\Debug\GestorDePersonas.exe
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\bin\Debug\GestorDePersonas.pdb
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\bin\Debug\GestorDePersonas.xml
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.vbproj.AssemblyReference.cache
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.vbproj.SuggestedBindingRedirects.cache
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.Form1.resources
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.Resources.resources
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.vbproj.GenerateResource.cache
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.vbproj.CoreCompileInputs.cache
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.exe
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.xml
+E:\DAW1\Base de datos\VisualBasic\GestorDePersonas\GestorDePersonas\GestorDePersonas\obj\Debug\GestorDePersonas.pdb

@@ -1,9 +1,9 @@
-﻿Imports System.Data.OleDb
+Imports System.Data.OleDb
 Imports System.Data.SqlClient
 
 Public Class AgenteBD
 
-    Private Shared CadConexion = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" + Application.StartupPath + "\Persona.accdb" 'ruta de la base de datos''especifica la ubicación del archivo de base de datos Access y el proveedor de acceso a datos utilizado'
+    Private Shared CadConexion = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" + Application.StartupPath + "\Personas.accdb" 'ruta de la base de datos''especifica la ubicación del archivo de base de datos Access y el proveedor de acceso a datos utilizado'
     Private Shared mConexion As OleDbConnection
     Private Shared instancia As AgenteBD = Nothing
 
@@ -18,9 +18,9 @@ Public Class AgenteBD
         End Try
     End Sub
 
-    Public Shared Function getInstancia() As AgenteBD  'Metodo que devuelve una instancia de la clase AgenteBD; garantiza una unica conexion'
+    Public Shared Function getInstancia() As AgenteBD
         If instancia Is Nothing Then
-            instancia = New AgenteBD()
+            instancia = New AgenteBD() 'Metodo que devuelve una instancia de la clase AgenteBD; garantiza una unica conexion'
         End If
         Return instancia
     End Function

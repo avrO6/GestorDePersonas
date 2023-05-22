@@ -1,4 +1,4 @@
-﻿Imports System.Data.OleDb
+Imports System.Data.OleDb
 Imports System.Data.SqlClient
 
 Public Class PersonaDao
@@ -24,14 +24,14 @@ Public Class PersonaDao
     ' Iserta una persona en la base de datos ' 
     Sub insert(ByVal newPersona As Persona)
         Agente = AgenteBD.getInstancia()
-        Dim sSQL As String = "INSERT * FROM PERSONAS"
+        Dim sSQL As String = "INSERT INTO PERSONAS VALUE ('" + newPersona.NDNI1 + "')"   'Cabiar line de insert'
         Agente.create(sSQL)
     End Sub
 
     ' Actualizar una persona en la base de datos ' 
     Sub update(ByVal newPersona As Persona)
         Agente = AgenteBD.getInstancia()
-        Dim sSQL As String = "UPDATE * FROM PERSONAS"
+        Dim sSQL As String = "UPDATE PERSONAS SET '" + newPersona.NDNI1 + "'"  'cambiar update'
         Agente.update(sSQL)
     End Sub
 
@@ -50,4 +50,7 @@ Public Class PersonaDao
         Agente.delete(sSQL)
     End Sub
 
+    Friend Sub readAll()
+        Throw New NotImplementedException()
+    End Sub
 End Class

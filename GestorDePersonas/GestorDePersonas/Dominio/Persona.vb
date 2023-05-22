@@ -1,4 +1,4 @@
-﻿Imports System.Data.OleDb
+Imports System.Data.OleDb
 
 
 Public Class Persona
@@ -8,11 +8,10 @@ Public Class Persona
     Private mNombre As String
     Private Gestor As PersonaDao
 
-
     ' Constructor '
-    Sub New(ByVal dni As String, ByVal nombre As String)
-        Me.mDNI = dni
-        Me.mNombre = nombre
+    Sub New()
+        Me.mDNI = mDNI
+        Me.mNombre = mNombre
         Gestor = New PersonaDao
     End Sub
 
@@ -27,12 +26,20 @@ Public Class Persona
         End Set
     End Property
 
+    Public Property NOM As String
+        Get
+            Return mNombre
+        End Get
+        Set(value As String)
+            mNombre = value
+        End Set
+    End Property
 
     ' Funcion para leer todos ' 
     Function leertodos()
         Dim todos As Collection
         Me.Gestor.readAll()
-        todos = GestorDePersonas.listaPersonas
+        todos = Gestor.listaPersona
         Return todos
     End Function
 
@@ -46,5 +53,14 @@ Public Class Persona
         Me.Gestor.update(Me)
     End Sub
 
+    Function leerpersona(text As String)
+        If NDNI1 IsNot Nothing Then
+            MsgBox("La persona ya existe")
+        End If
+    End Function
+
+    Sub eliminarPersona()
+        Me.Gestor.delete(Me)
+    End Sub
 
 End Class
